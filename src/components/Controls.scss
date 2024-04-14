@@ -1,0 +1,38 @@
+.controls-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 100%;
+        button {
+            border: none;
+            background-color: transparent;
+            margin-right: 20px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+            & img {
+                width: 40px;
+                cursor: pointer;
+            }
+        }
+        .next {
+            margin-right: 200px;
+        }
+        .prev {
+            margin-left: 200px;
+        }
+        .repeat {
+            margin-left: 40px;
+        }
+        .shuffle {
+            margin-right: 40px;
+        }
+    }
+}

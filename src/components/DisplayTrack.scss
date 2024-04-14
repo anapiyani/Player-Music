@@ -1,0 +1,52 @@
+.displayTrack {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    audio {
+        display: none;
+    }
+
+    .display_track {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+        .track_pic {
+            width: 500px;
+            height: 500px;
+            border: none;
+            border-radius: 20px;
+            img {
+                width: 100%;
+                border: none;
+                border-radius: 20px;
+                height: 100%;
+            }
+        }
+        .track_info {
+            height: 300px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            .name_author {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 200px;
+                flex-direction: column;
+                p {
+                    margin-right: 20px;
+                    font-family: 'Arial', sans-serif;
+                    color: white;
+                    font-size: 40px;
+                    line-height: 2;
+                }
+            }
+        }
+
+    }
+}

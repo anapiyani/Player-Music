@@ -1,0 +1,39 @@
+.audioPlayer {
+    width: 100%;
+    height: 100vh;
+    background-color: #051024;
+    display: flex;
+    justify-content: space-between;
+    & .allSongs {
+        height: 100vh;
+        width: 250px;
+        position: fixed;
+        border-right: 1px solid #040d1d;
+        font-family: 'Arial', sans-serif;
+        color: white;
+        & .head_song {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            & h1 {
+                text-align: center;
+                display: flex;
+                margin-top: 20px;
+               }
+        }
+        & .songs {
+            margin-top: 30px;
+        }
+    }
+    .main_song {
+        width: 1430px;
+        margin-left: 250px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        background-color: #050A16;
+    }
+}
